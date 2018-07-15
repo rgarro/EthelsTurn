@@ -1,0 +1,178 @@
+fileFormatVersion: 2
+guid: fd6072e3a68d98340bf631bc60e93320
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: body
+    100002: brakes_f_l
+    100004: brakes_f_r
+    100006: brakes_r_l
+    100008: brakes_r_r
+    100010: //RootNode
+    100012: glass
+    100014: headlights
+    100016: interior
+    100018: rearlights
+    100020: wheel_f_l
+    100022: wheel_f_r
+    100024: wheel_r_l
+    100026: wheel_r_r
+    400000: body
+    400002: brakes_f_l
+    400004: brakes_f_r
+    400006: brakes_r_l
+    400008: brakes_r_r
+    400010: //RootNode
+    400012: glass
+    400014: headlights
+    400016: interior
+    400018: rearlights
+    400020: wheel_f_l
+    400022: wheel_f_r
+    400024: wheel_r_l
+    400026: wheel_r_r
+    2100000: interior_dark
+    2100002: interior
+    2100004: screen
+    2100006: device
+    2100008: 'Material #45'
+    2100010: Default Metallic Paint
+    2100012: 'Material #46'
+    2100014: 'Material #47'
+    2100016: black 10
+    2100018: 'Material #235 Slot #7'
+    2100020: 'Material #174'
+    2100022: 'Material #243'
+    2100024: 'Material #50'
+    2100026: 'Material #203'
+    2100028: 'Material #202'
+    2100030: Brembo
+    2100032: 'Material #71'
+    2100034: brake disk dark
+    2100036: 'Material #142'
+    2100038: 'Material #143'
+    2100040: 'Material #144'
+    2100042: 'Material #249'
+    2100044: 'MultiMat_11 Slot #4'
+    2100046: 'Material #157'
+    2300000: body
+    2300002: brakes_f_l
+    2300004: brakes_f_r
+    2300006: brakes_r_l
+    2300008: brakes_r_r
+    2300010: glass
+    2300012: headlights
+    2300014: interior
+    2300016: rearlights
+    2300018: wheel_f_l
+    2300020: wheel_f_r
+    2300022: wheel_r_l
+    2300024: wheel_r_r
+    3300000: body
+    3300002: brakes_f_l
+    3300004: brakes_f_r
+    3300006: brakes_r_l
+    3300008: brakes_r_r
+    3300010: glass
+    3300012: headlights
+    3300014: interior
+    3300016: rearlights
+    3300018: wheel_f_l
+    3300020: wheel_f_r
+    3300022: wheel_r_l
+    3300024: wheel_r_r
+    4300000: interior
+    4300002: body
+    4300004: glass
+    4300006: wheel_f_l
+    4300008: brakes_f_l
+    4300010: brakes_r_l
+    4300012: wheel_r_l
+    4300014: brakes_f_r
+    4300016: wheel_f_r
+    4300018: wheel_r_r
+    4300020: brakes_r_r
+    4300022: headlights
+    4300024: rearlights
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

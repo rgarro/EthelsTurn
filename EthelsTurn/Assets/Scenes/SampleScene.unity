@@ -649,6 +649,7 @@ GameObject:
   - component: {fileID: 1281133262}
   - component: {fileID: 1281133261}
   - component: {fileID: 1281133260}
+  - component: {fileID: 1281133264}
   m_Layer: 0
   m_Name: redBlackChallenger
   m_TagString: Untagged
@@ -726,6 +727,29 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1281133264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1281133259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 257a5b9e62b150b4e908c9df8b209676, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  engineSoundStyle: 1
+  lowAccelClip: {fileID: 8300000, guid: c4d8928c75c21af43998193f0f038429, type: 3}
+  lowDecelClip: {fileID: 8300000, guid: 5699dddcce16c4543b95951c4ce0e092, type: 3}
+  highAccelClip: {fileID: 8300000, guid: 03e3bd08a6e70684dbe299a3e185fdd2, type: 3}
+  highDecelClip: {fileID: 8300000, guid: 03bf91d88fce91c41995d27de63cc967, type: 3}
+  pitchMultiplier: 0.79
+  lowPitchMin: 0.66
+  lowPitchMax: 3.56
+  highPitchMultiplier: 0.25
+  maxRolloffDistance: 499.37
+  dopplerLevel: 1
+  useDoppler: 1
 --- !u!1 &1736785121
 GameObject:
   m_ObjectHideFlags: 0

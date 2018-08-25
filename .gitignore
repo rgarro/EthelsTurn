@@ -9,6 +9,7 @@
 [Bb]uilds/
 Assets/AssetStoreTools*
 EthelsTurn/Assets/Scripts/Editor/customLibs
+EthelsTurn/Assets/customLibs
 # Visual Studio cache directory
 .vs/
 

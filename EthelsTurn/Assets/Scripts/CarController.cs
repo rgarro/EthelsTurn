@@ -1,10 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using emptyLibUnity;
+//using emptyLibUnity;
 
 
-public class CarController : Empty {
+public class CarController : MonoBehaviour {
 
 	public WheelCollider[] WColForward;
 	public WheelCollider[] WColBack;

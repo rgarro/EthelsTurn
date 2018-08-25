@@ -296,7 +296,6 @@ GameObject:
   m_Component:
   - component: {fileID: 159305330}
   - component: {fileID: 159305332}
-  - component: {fileID: 159305331}
   m_Layer: 0
   m_Name: reviewMirror
   m_TagString: MainCamera
@@ -317,13 +316,6 @@ Transform:
   m_Father: {fileID: 1281133263}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: -0.47800002, y: -185.547, z: 1.7070001}
---- !u!81 &159305331
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 159305329}
-  m_Enabled: 1
 --- !u!20 &159305332
 Camera:
   m_ObjectHideFlags: 0
@@ -1084,11 +1076,11 @@ MonoBehaviour:
   lowDecelClip: {fileID: 8300000, guid: 5699dddcce16c4543b95951c4ce0e092, type: 3}
   highAccelClip: {fileID: 8300000, guid: 03e3bd08a6e70684dbe299a3e185fdd2, type: 3}
   highDecelClip: {fileID: 8300000, guid: 03bf91d88fce91c41995d27de63cc967, type: 3}
-  pitchMultiplier: 2.02
-  lowPitchMin: 2.56
-  lowPitchMax: 2.32
+  pitchMultiplier: 1.78
+  lowPitchMin: 1.48
+  lowPitchMax: 6
   highPitchMultiplier: 0.25
-  maxRolloffDistance: 499.37
+  maxRolloffDistance: 500
   dopplerLevel: 1
   useDoppler: 1
 --- !u!1 &1736785121

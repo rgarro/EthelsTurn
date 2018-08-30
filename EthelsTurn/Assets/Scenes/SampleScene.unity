@@ -780,7 +780,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -148.7, y: 238.7}
+  m_AnchoredPosition: {x: -174.8, y: 238.7}
   m_SizeDelta: {x: 51, y: 29}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &313689825
@@ -1134,6 +1134,73 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 562047466}
   m_Mesh: {fileID: 4300014, guid: fd6072e3a68d98340bf631bc60e93320, type: 3}
+--- !u!1 &567227062
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 567227063}
+  - component: {fileID: 567227065}
+  - component: {fileID: 567227064}
+  m_Layer: 5
+  m_Name: theGoat
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &567227063
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 567227062}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1252252772}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 54.9, y: 238.5}
+  m_SizeDelta: {x: 32, y: 32}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &567227064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 567227062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -98529514, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Texture: {fileID: 2800000, guid: 9b0237b8153f38d45a6e5639fdd7124d, type: 3}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+--- !u!222 &567227065
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 567227062}
 --- !u!1 &574465178
 GameObject:
   m_ObjectHideFlags: 0
@@ -1166,7 +1233,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -81.6, y: 238.4}
+  m_AnchoredPosition: {x: -113.3, y: 238.4}
   m_SizeDelta: {x: 55, y: 26}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &574465180
@@ -1520,7 +1587,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -239, y: 241.3}
+  m_AnchoredPosition: {x: -258.6, y: 241.3}
   m_SizeDelta: {x: 102, y: 22}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &937567125
@@ -2060,7 +2127,7 @@ GameObject:
   - component: {fileID: 1175638200}
   - component: {fileID: 1175638199}
   m_Layer: 5
-  m_Name: RawImage
+  m_Name: nascarstore
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2081,7 +2148,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.92, y: 239.1}
+  m_AnchoredPosition: {x: -44.4, y: 239.1}
   m_SizeDelta: {x: 73, y: 28}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1175638199
@@ -2369,6 +2436,7 @@ RectTransform:
   - {fileID: 574465179}
   - {fileID: 1175638198}
   - {fileID: 1506704079}
+  - {fileID: 567227063}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2608,7 +2676,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -327.1, y: 239.9}
+  m_AnchoredPosition: {x: -336, y: 239.9}
   m_SizeDelta: {x: 41, y: 41}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1500028188
@@ -2654,7 +2722,7 @@ GameObject:
   - component: {fileID: 1506704081}
   - component: {fileID: 1506704080}
   m_Layer: 5
-  m_Name: RawImage (1)
+  m_Name: firebase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2675,7 +2743,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 59.7, y: 239.2}
+  m_AnchoredPosition: {x: 13.3, y: 239.2}
   m_SizeDelta: {x: 29, y: 31}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1506704080

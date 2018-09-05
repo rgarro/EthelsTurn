@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System;
+using emptyLibUnity.UI.Util;
 
 [Serializable]
 public enum DriveType
@@ -29,6 +30,8 @@ public class WheelDrive : MonoBehaviour
 
 	[Tooltip("The vehicle's drive type: rear-wheels drive, front-wheels drive or all-wheels drive.")]
 	public DriveType driveType;
+
+	public SimpleGaugeNeedle speedNeedle;
 
     private WheelCollider[] m_Wheels;
 

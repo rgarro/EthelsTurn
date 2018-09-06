@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System;
 using emptyLibUnity.UI.Util;
+using UnityEngine.UI;
 
 [Serializable]
 public enum DriveType
@@ -32,12 +33,19 @@ public class WheelDrive : MonoBehaviour
 	public DriveType driveType;
 
 	public SimpleGaugeNeedle speedNeedle;
-
+	public Image NeedleIm;
     private WheelCollider[] m_Wheels;
+
+	public double speedKph = 0.0F;
+	private Rigidbody rb;
+	private GameObject go;
 
     // Find all the WheelColliders down in the hierarchy.
 	void Start()
 	{
+		this.rb = GetComponent<Rigidbody>();
+		this.go = GetComponent<GameObject>();
+		this.startDashItems();
 		m_Wheels = GetComponentsInChildren<WheelCollider>();
 
 		for (int i = 0; i < m_Wheels.Length; ++i) 
@@ -53,11 +61,22 @@ public class WheelDrive : MonoBehaviour
 		}
 	}
 
+	void startDashItems(){
+		this.speedNeedle = new SimpleGaugeNeedle();
+		this.speedNeedle.Needle = this.NeedleIm;
+	}
+
+	void setSpeedKph(){
+		this.speedKph = this.rb.velocity.magnitude*3.6;
+		this.speedNeedle.getTilter(this.speedKph);
+	}
+
 	// This is a really simple approach to updating wheels.
 	// We simulate a rear wheel drive car and assume that the car is perfectly symmetric at local zero.
 	// This helps us to figure our which wheels are front ones and which are rear.
 	void Update()
 	{
+		this.setSpeedKph();
 		m_Wheels[0].ConfigureVehicleSubsteps(criticalSpeed, stepsBelow, stepsAbove);
 
 		float angle = maxAngle * Input.GetAxis("Horizontal");

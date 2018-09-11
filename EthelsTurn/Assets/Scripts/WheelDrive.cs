@@ -69,6 +69,7 @@ public class WheelDrive : MonoBehaviour
 	void setSpeedKph(){
 		this.speedKph = this.rb.velocity.magnitude*3.6;
 		this.speedNeedle.getTilter(this.speedKph);//fractals are the far end of the needle speed oscilation ...
+		this.speedNeedle.tiltNeedle();
 	}
 
 	// This is a really simple approach to updating wheels.

@@ -33,10 +33,13 @@ public class WheelDrive : MonoBehaviour
 	public DriveType driveType;
 
 	public SimpleGaugeNeedle speedNeedle;
+	public SimpleGaugeNeedle mphNeedle;
 	public Image NeedleIm;
+	public Image NeedleMph;
     private WheelCollider[] m_Wheels;
 
 	public double speedKph = 0.0F;
+	public double speedMph = 0.0F;
 	private Rigidbody rb;
 	private GameObject go;
 
@@ -70,6 +73,10 @@ public class WheelDrive : MonoBehaviour
 		this.speedKph = this.rb.velocity.magnitude*3.6;
 		this.speedNeedle.getTilter(this.speedKph);//fractals are the far end of the needle speed oscilation ...
 		this.speedNeedle.tiltNeedle();
+	}
+
+	protected void setSpeedMph(){
+		this.speedMph = this.speedKph * 0.621371;
 	}
 
 	// This is a really simple approach to updating wheels.
@@ -106,7 +113,7 @@ public class WheelDrive : MonoBehaviour
 				wheel.motorTorque = torque;
 			}
 
-			// Update visual wheels if any.
+			// Update visual wheels if any.pw
 			if (wheelShape) 
 			{
 				Quaternion q;

@@ -67,6 +67,8 @@ public class WheelDrive : MonoBehaviour
 	void startDashItems(){
 		this.speedNeedle = new SimpleGaugeNeedle();
 		this.speedNeedle.Needle = this.NeedleIm;
+		this.mphNeedle = new SimpleGaugeNeedle();
+		this.mphNeedle.Needle = this.NeedleMph;
 	}
 
 	void setSpeedKph(){
@@ -77,6 +79,9 @@ public class WheelDrive : MonoBehaviour
 
 	protected void setSpeedMph(){
 		this.speedMph = this.speedKph * 0.621371;
+		Debug.Log(this.speedMph);
+		this.mphNeedle.getTilter(this.speedMph);
+		this.mphNeedle.tiltNeedle();
 	}
 
 	// This is a really simple approach to updating wheels.
@@ -85,6 +90,7 @@ public class WheelDrive : MonoBehaviour
 	void Update()
 	{
 		this.setSpeedKph();
+		this.setSpeedMph();
 		m_Wheels[0].ConfigureVehicleSubsteps(criticalSpeed, stepsBelow, stepsAbove);
 
 		float angle = maxAngle * Input.GetAxis("Horizontal");

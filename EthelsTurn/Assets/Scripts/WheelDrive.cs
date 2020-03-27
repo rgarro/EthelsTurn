@@ -1,3 +1,12 @@
+/**
+ * Darkness in a blink - Mantra engine roaring bliss - sudden noise absence
+ *       ____                     _____________         _____________
+ *  ____//_]|________        ____//__][__][___|    ____//__][______||
+ * (o _ |  -|   _  o|       (o  _|  -|     _ o|   (o _ |  -|   _   o|
+ *  `(_)-------(_)--'        `-(_)--------(_)-'    `(_)-------(_)---'
+ *
+ * @author Rolando <rgarro@gmail.com>
+ */
 ﻿using UnityEngine;
 using System;
 using emptyLibUnity.UI.Util;
@@ -13,7 +22,7 @@ public enum DriveType
 
 public class WheelDrive : MonoBehaviour
 {
-    [Tooltip("Maximum steering angle of the wheels")]
+  [Tooltip("Maximum steering angle of the wheels")]
 	public float maxAngle = 30f;
 	[Tooltip("Maximum torque applied to the driving wheels")]
 	public float maxTorque = 300f;
@@ -36,7 +45,7 @@ public class WheelDrive : MonoBehaviour
 	public SimpleGaugeNeedle mphNeedle;
 	public Image NeedleIm;
 	public Image NeedleMph;
-    private WheelCollider[] m_Wheels;
+  private WheelCollider[] m_Wheels;
 
 	public double speedKph = 0.0F;
 	public double speedMph = 0.0F;
@@ -51,7 +60,7 @@ public class WheelDrive : MonoBehaviour
 		this.startDashItems();
 		m_Wheels = GetComponentsInChildren<WheelCollider>();
 
-		for (int i = 0; i < m_Wheels.Length; ++i) 
+		for (int i = 0; i < m_Wheels.Length; ++i)
 		{
 			var wheel = m_Wheels [i];
 
@@ -120,7 +129,7 @@ public class WheelDrive : MonoBehaviour
 			}
 
 			// Update visual wheels if any.pw
-			if (wheelShape) 
+			if (wheelShape)
 			{
 				Quaternion q;
 				Vector3 p;

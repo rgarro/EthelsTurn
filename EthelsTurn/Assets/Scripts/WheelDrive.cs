@@ -88,7 +88,7 @@ public class WheelDrive : MonoBehaviour
 
 	protected void setSpeedMph(){
 		this.speedMph = this.speedKph * 0.621371;
-		Debug.Log(this.speedMph);
+		//Debug.Log(this.speedMph);
 		this.mphNeedle.getTilter(this.speedMph);
 		this.mphNeedle.tiltNeedle();
 	}

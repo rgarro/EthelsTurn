@@ -1732,6 +1732,7 @@ GameObject:
   - component: {fileID: 870793100}
   - component: {fileID: 870793101}
   - component: {fileID: 870793102}
+  - component: {fileID: 870793103}
   m_Layer: 0
   m_Name: GameController
   m_TagString: Untagged
@@ -1767,6 +1768,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   soundCloudIcon: {fileID: 2800000, guid: 4c02bc9ff345d445a863db77335508c1, type: 3}
   audioData: {fileID: 870793102}
+  IconX: 104
+  IconY: 10
 --- !u!82 &870793102
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1863,6 +1866,21 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &870793103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 870793099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a6786f2ca747465bad60b776cd1ea4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RestartIcon: {fileID: 2800000, guid: cde13d72ec4df4119b1dbb108ec044b3, type: 3}
+  IconX: 10
+  IconY: 10
 --- !u!1 &933316787
 GameObject:
   m_ObjectHideFlags: 0

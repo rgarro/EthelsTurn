@@ -1768,8 +1768,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   soundCloudIcon: {fileID: 2800000, guid: 4c02bc9ff345d445a863db77335508c1, type: 3}
   audioData: {fileID: 870793102}
-  IconX: 104
+  IconX: 60
   IconY: 10
+  IconWidth: 40.5
+  IconHeight: 40.5
 --- !u!82 &870793102
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1881,6 +1883,8 @@ MonoBehaviour:
   RestartIcon: {fileID: 2800000, guid: cde13d72ec4df4119b1dbb108ec044b3, type: 3}
   IconX: 10
   IconY: 10
+  IconWidth: 40.5
+  IconHeight: 40.5
 --- !u!1 &933316787
 GameObject:
   m_ObjectHideFlags: 0
@@ -2890,6 +2894,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16f1b8fc1b26a455ca9f7da5b3ce2752, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttons_x_corner: 113.43
+  buttons_y_corner: 2.9
+  BoxWidth: 104.1
+  BoxHeight: 58.6
+  IconWidth: 40
+  IconHeight: 40
+  IconsY: 19.4
+  IconXSeparation: 55
   ModelAIcon: {fileID: 2800000, guid: bd96664c9bea243dc91cb1d627ebffe7, type: 3}
   ModelBIcon: {fileID: 2800000, guid: 723cda8b5201e41d7bed24fc0e91127f, type: 3}
   ModelA: {fileID: 796420283}

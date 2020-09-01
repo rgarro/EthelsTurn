@@ -557,10 +557,10 @@ WheelCollider:
   m_Center: {x: 0, y: 0, z: 0}
   m_Radius: 0.5
   m_SuspensionSpring:
-    spring: 25000.328
-    damper: 4000.0525
+    spring: 25000.773
+    damper: 4000.1238
     targetPosition: 0.5
-  m_SuspensionDistance: 0.1962
+  m_SuspensionDistance: 0.19620001
   m_ForceAppPointDistance: 1.01
   m_Mass: 20
   m_WheelDampingRate: 0.25
@@ -656,7 +656,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &159305330
 Transform:
   m_ObjectHideFlags: 0
@@ -988,10 +988,10 @@ WheelCollider:
   m_Center: {x: 0, y: 0, z: 0}
   m_Radius: 0.5
   m_SuspensionSpring:
-    spring: 24999.674
-    damper: 3999.9478
+    spring: 24999.22
+    damper: 3999.8755
     targetPosition: 0.5
-  m_SuspensionDistance: 0.1962
+  m_SuspensionDistance: 0.19620001
   m_ForceAppPointDistance: 1.01
   m_Mass: 20
   m_WheelDampingRate: 0.25
@@ -1526,10 +1526,10 @@ WheelCollider:
   m_Center: {x: 0, y: 0, z: 0}
   m_Radius: 0.5
   m_SuspensionSpring:
-    spring: 25001.143
-    damper: 4000.1829
+    spring: 25000.668
+    damper: 4000.1072
     targetPosition: 0.5
-  m_SuspensionDistance: 0.1962
+  m_SuspensionDistance: 0.19620003
   m_ForceAppPointDistance: 1.01
   m_Mass: 20
   m_WheelDampingRate: 0.25
@@ -2011,10 +2011,10 @@ WheelCollider:
   m_Center: {x: 0, y: 0, z: 0}
   m_Radius: 0.5
   m_SuspensionSpring:
-    spring: 24998.861
-    damper: 3999.818
+    spring: 24999.326
+    damper: 3999.8923
     targetPosition: 0.5
-  m_SuspensionDistance: 0.19620003
+  m_SuspensionDistance: 0.19620001
   m_ForceAppPointDistance: 1.01
   m_Mass: 20
   m_WheelDampingRate: 0.25
@@ -2433,15 +2433,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 400000, guid: 52975cde20382cd4188ad917cb6f77cd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.3
+      value: 235
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 52975cde20382cd4188ad917cb6f77cd, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.04
+      value: 1.0400001
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 52975cde20382cd4188ad917cb6f77cd, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 91.7
+      value: 118
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 52975cde20382cd4188ad917cb6f77cd, type: 3}
       propertyPath: m_LocalRotation.x
@@ -2449,7 +2449,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 52975cde20382cd4188ad917cb6f77cd, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.99999994
+      value: 0.66627926
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 52975cde20382cd4188ad917cb6f77cd, type: 3}
       propertyPath: m_LocalRotation.z
@@ -2457,7 +2457,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 52975cde20382cd4188ad917cb6f77cd, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.000383304
+      value: -0.7457024
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 52975cde20382cd4188ad917cb6f77cd, type: 3}
       propertyPath: m_RootOrder
@@ -2465,7 +2465,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 52975cde20382cd4188ad917cb6f77cd, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 179.95601
+      value: 276.439
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 52975cde20382cd4188ad917cb6f77cd, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -2952,7 +2952,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1281133259}
   m_LocalRotation: {x: -0, y: 0.7205124, z: -0, w: 0.69344217}
-  m_LocalPosition: {x: 284.6, y: 2.74, z: 158.2}
+  m_LocalPosition: {x: 284.6, y: 2.74, z: 161.3}
   m_LocalScale: {x: 0.8337164, y: 1, z: 1.6193945}
   m_Children:
   - {fileID: 61825100}
@@ -3025,8 +3025,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 333489f0ff23f4e35b5d9c8dfa65082a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rearViewMirrorIcon: {fileID: 0}
-  rearViewMirrorObj: {fileID: 0}
+  rearViewMirrorIcon: {fileID: 2800000, guid: 0abdc5107d15a4b608bfeaa55bc98b6e, type: 3}
+  rearViewMirrorObj: {fileID: 159305329}
+  IconX: 234
+  IconY: 10
+  IconWidth: 45
+  IconHeight: 45
 --- !u!1001 &1287344485
 PrefabInstance:
   m_ObjectHideFlags: 0

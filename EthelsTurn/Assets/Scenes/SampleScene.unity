@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657838, g: 0.49641234, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657934, g: 0.4964136, b: 0.5748189, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1565,15 +1565,15 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 100038, guid: 35164057403a841d8b31d3fa0d004081, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 100022, guid: 35164057403a841d8b31d3fa0d004081, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100024, guid: 35164057403a841d8b31d3fa0d004081, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 100038, guid: 35164057403a841d8b31d3fa0d004081, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -1852,11 +1852,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundCloudIcon: {fileID: 2800000, guid: 4c02bc9ff345d445a863db77335508c1, type: 3}
-  audioData: {fileID: 870793102}
-  IconX: 60
+  audioData: {fileID: 0}
+  IconX: 63
   IconY: 10
-  IconWidth: 40.5
-  IconHeight: 40.5
+  IconWidth: 48
+  IconHeight: 48
 --- !u!82 &870793102
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1968,8 +1968,8 @@ MonoBehaviour:
   RestartIcon: {fileID: 2800000, guid: cde13d72ec4df4119b1dbb108ec044b3, type: 3}
   IconX: 10
   IconY: 10
-  IconWidth: 40.5
-  IconHeight: 40.5
+  IconWidth: 48
+  IconHeight: 48
 --- !u!1 &933316787
 GameObject:
   m_ObjectHideFlags: 0
@@ -2878,6 +2878,7 @@ GameObject:
   - component: {fileID: 1281133260}
   - component: {fileID: 1281133264}
   - component: {fileID: 1281133265}
+  - component: {fileID: 1281133266}
   m_Layer: 0
   m_Name: carRoot
   m_TagString: Untagged
@@ -2999,19 +3000,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16f1b8fc1b26a455ca9f7da5b3ce2752, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  buttons_x_corner: 113.43
-  buttons_y_corner: 2.9
-  BoxWidth: 104.1
-  BoxHeight: 58.6
+  buttons_x_corner: 118
+  buttons_y_corner: 2
+  BoxWidth: 108
+  BoxHeight: 73
   IconWidth: 40
   IconHeight: 40
-  IconsY: 19.4
+  IconsY: 27
   IconXSeparation: 55
   ModelAIcon: {fileID: 2800000, guid: bd96664c9bea243dc91cb1d627ebffe7, type: 3}
   ModelBIcon: {fileID: 2800000, guid: 723cda8b5201e41d7bed24fc0e91127f, type: 3}
   ModelA: {fileID: 796420283}
   ModelB: {fileID: 1281040143}
   ButtonsLabel: Models
+--- !u!114 &1281133266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1281133259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 333489f0ff23f4e35b5d9c8dfa65082a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rearViewMirrorIcon: {fileID: 0}
+  rearViewMirrorObj: {fileID: 0}
 --- !u!1001 &1287344485
 PrefabInstance:
   m_ObjectHideFlags: 0

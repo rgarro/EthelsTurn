@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657934, g: 0.4964136, b: 0.5748189, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657838, g: 0.49641234, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -557,10 +557,10 @@ WheelCollider:
   m_Center: {x: 0, y: 0, z: 0}
   m_Radius: 0.5
   m_SuspensionSpring:
-    spring: 25000.773
-    damper: 4000.1238
+    spring: 25000.383
+    damper: 4000.061
     targetPosition: 0.5
-  m_SuspensionDistance: 0.19620001
+  m_SuspensionDistance: 0.1962
   m_ForceAppPointDistance: 1.01
   m_Mass: 20
   m_WheelDampingRate: 0.25
@@ -988,8 +988,8 @@ WheelCollider:
   m_Center: {x: 0, y: 0, z: 0}
   m_Radius: 0.5
   m_SuspensionSpring:
-    spring: 24999.22
-    damper: 3999.8755
+    spring: 24999.615
+    damper: 3999.9382
     targetPosition: 0.5
   m_SuspensionDistance: 0.19620001
   m_ForceAppPointDistance: 1.01
@@ -1526,10 +1526,10 @@ WheelCollider:
   m_Center: {x: 0, y: 0, z: 0}
   m_Radius: 0.5
   m_SuspensionSpring:
-    spring: 25000.668
-    damper: 4000.1072
+    spring: 24999.475
+    damper: 3999.916
     targetPosition: 0.5
-  m_SuspensionDistance: 0.19620003
+  m_SuspensionDistance: 0.1962
   m_ForceAppPointDistance: 1.01
   m_Mass: 20
   m_WheelDampingRate: 0.25
@@ -2011,10 +2011,10 @@ WheelCollider:
   m_Center: {x: 0, y: 0, z: 0}
   m_Radius: 0.5
   m_SuspensionSpring:
-    spring: 24999.326
-    damper: 3999.8923
+    spring: 25000.521
+    damper: 4000.0833
     targetPosition: 0.5
-  m_SuspensionDistance: 0.19620001
+  m_SuspensionDistance: 0.1962
   m_ForceAppPointDistance: 1.01
   m_Mass: 20
   m_WheelDampingRate: 0.25
@@ -2433,31 +2433,31 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 400000, guid: 52975cde20382cd4188ad917cb6f77cd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 235
+      value: 218.8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 52975cde20382cd4188ad917cb6f77cd, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.0400001
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 52975cde20382cd4188ad917cb6f77cd, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 118
+      value: 101.4
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 52975cde20382cd4188ad917cb6f77cd, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: -0.0070662186
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 52975cde20382cd4188ad917cb6f77cd, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.66627926
+      value: 0.6974621
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 52975cde20382cd4188ad917cb6f77cd, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0.026524609
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 52975cde20382cd4188ad917cb6f77cd, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.7457024
+      value: -0.7160958
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 52975cde20382cd4188ad917cb6f77cd, type: 3}
       propertyPath: m_RootOrder
@@ -2465,7 +2465,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 52975cde20382cd4188ad917cb6f77cd, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 276.439
+      value: 271.547
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 52975cde20382cd4188ad917cb6f77cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -1.5400001
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 52975cde20382cd4188ad917cb6f77cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -2.743
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 52975cde20382cd4188ad917cb6f77cd, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -2912,6 +2920,7 @@ MonoBehaviour:
   NeedleMph: {fileID: 3279119}
   speedKph: 0
   speedMph: 0
+  timerSpeed: 1
 --- !u!114 &1281133261
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2952,7 +2961,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1281133259}
   m_LocalRotation: {x: -0, y: 0.7205124, z: -0, w: 0.69344217}
-  m_LocalPosition: {x: 284.6, y: 2.74, z: 161.3}
+  m_LocalPosition: {x: 215.97, y: 8.08, z: 162.01}
   m_LocalScale: {x: 0.8337164, y: 1, z: 1.6193945}
   m_Children:
   - {fileID: 61825100}

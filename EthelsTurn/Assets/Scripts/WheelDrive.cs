@@ -55,6 +55,8 @@ public class WheelDrive : MonoBehaviour
 	private GameObject go;
 	public float timerSpeed = 1.0f;
 	private float secondsDriving = 0;
+	private double distanceRunnedMetres = 0;
+	private double distanceRunnedKm = 0;
 
     // Find all the WheelColliders down in the hierarchy.
 	void Start()
@@ -81,7 +83,9 @@ public class WheelDrive : MonoBehaviour
  private IEnumerator drivingTimer(){
 	 while(true){
 		 this.secondsDriving = this.secondsDriving + this.timerSpeed;
-Debug.Log("seconds driving: " + this.secondsDriving);
+			this.distanceRunnedMetres = this.distanceRunnedMetres + (this.speedKph/3.6);
+			this.distanceRunnedKm = this.distanceRunnedMetres / 1000;
+Debug.Log("runnedKm " + this.distanceRunnedKm);
 		 yield return new WaitForSeconds(this.timerSpeed);
 	 }
  }

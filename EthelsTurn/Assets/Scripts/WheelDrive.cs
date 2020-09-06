@@ -11,6 +11,8 @@
 using System;
 using emptyLibUnity.UI.Util;
 using UnityEngine.UI;
+using System.Collections;
+using System.Collections.Generic;
 
 [Serializable]
 public enum DriveType
@@ -51,10 +53,15 @@ public class WheelDrive : MonoBehaviour
 	public double speedMph = 0.0F;
 	private Rigidbody rb;
 	private GameObject go;
+	public float timerSpeed = 1.0f;
+	private float secondsDriving = 0;
+	private double distanceRunnedMetres = 0;
+	private double distanceRunnedKm = 0;
 
     // Find all the WheelColliders down in the hierarchy.
 	void Start()
 	{
+		StartCoroutine(this.drivingTimer());
 		this.rb = GetComponent<Rigidbody>();
 		this.go = GetComponent<GameObject>();
 		this.startDashItems();
@@ -72,6 +79,16 @@ public class WheelDrive : MonoBehaviour
 			}
 		}
 	}
+
+ private IEnumerator drivingTimer(){
+	 while(true){
+		 this.secondsDriving = this.secondsDriving + this.timerSpeed;
+			this.distanceRunnedMetres = this.distanceRunnedMetres + (this.speedKph/3.6);
+			this.distanceRunnedKm = this.distanceRunnedMetres / 1000;
+Debug.Log("runnedKm " + this.distanceRunnedKm);
+		 yield return new WaitForSeconds(this.timerSpeed);
+	 }
+ }
 
 	void startDashItems(){
 		this.speedNeedle = new SimpleGaugeNeedle();

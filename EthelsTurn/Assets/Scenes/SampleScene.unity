@@ -557,10 +557,10 @@ WheelCollider:
   m_Center: {x: 0, y: 0, z: 0}
   m_Radius: 0.5
   m_SuspensionSpring:
-    spring: 25000.773
-    damper: 4000.1238
+    spring: 25000.777
+    damper: 4000.1243
     targetPosition: 0.5
-  m_SuspensionDistance: 0.19620001
+  m_SuspensionDistance: 0.1962
   m_ForceAppPointDistance: 1.01
   m_Mass: 20
   m_WheelDampingRate: 0.25
@@ -988,8 +988,8 @@ WheelCollider:
   m_Center: {x: 0, y: 0, z: 0}
   m_Radius: 0.5
   m_SuspensionSpring:
-    spring: 24999.22
-    damper: 3999.8755
+    spring: 24999.227
+    damper: 3999.8762
     targetPosition: 0.5
   m_SuspensionDistance: 0.19620001
   m_ForceAppPointDistance: 1.01
@@ -1526,10 +1526,10 @@ WheelCollider:
   m_Center: {x: 0, y: 0, z: 0}
   m_Radius: 0.5
   m_SuspensionSpring:
-    spring: 25000.668
-    damper: 4000.1072
+    spring: 25000.672
+    damper: 4000.1074
     targetPosition: 0.5
-  m_SuspensionDistance: 0.19620003
+  m_SuspensionDistance: 0.1962
   m_ForceAppPointDistance: 1.01
   m_Mass: 20
   m_WheelDampingRate: 0.25
@@ -3391,35 +3391,43 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4080388481386046, guid: 8299b4bcf0141794ea03b442aaccb6b3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 258.5
       objectReference: {fileID: 0}
     - target: {fileID: 4080388481386046, guid: 8299b4bcf0141794ea03b442aaccb6b3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.19
+      value: -0.6
       objectReference: {fileID: 0}
     - target: {fileID: 4080388481386046, guid: 8299b4bcf0141794ea03b442aaccb6b3, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -14.220222
+      value: 101.1
       objectReference: {fileID: 0}
     - target: {fileID: 4080388481386046, guid: 8299b4bcf0141794ea03b442aaccb6b3, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0.009857246
       objectReference: {fileID: 0}
     - target: {fileID: 4080388481386046, guid: 8299b4bcf0141794ea03b442aaccb6b3, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: -0.7081476
       objectReference: {fileID: 0}
     - target: {fileID: 4080388481386046, guid: 8299b4bcf0141794ea03b442aaccb6b3, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0.00988826
       objectReference: {fileID: 0}
     - target: {fileID: 4080388481386046, guid: 8299b4bcf0141794ea03b442aaccb6b3, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.7059265
       objectReference: {fileID: 0}
     - target: {fileID: 4080388481386046, guid: 8299b4bcf0141794ea03b442aaccb6b3, type: 3}
       propertyPath: m_RootOrder
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4080388481386046, guid: 8299b4bcf0141794ea03b442aaccb6b3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 1.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4080388481386046, guid: 8299b4bcf0141794ea03b442aaccb6b3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90.18
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8299b4bcf0141794ea03b442aaccb6b3, type: 3}

@@ -58,6 +58,11 @@ public class WheelDrive : MonoBehaviour
 	private double distanceRunnedMetres = 0;
 	private double distanceRunnedKm = 0;
 
+	public int distanceLabelx = 25;
+	public int distanceLabely = 25;
+	public int distanceLabelWidth = 100;
+	public int distanceLabelHeight = 30;
+
     // Find all the WheelColliders down in the hierarchy.
 	void Start()
 	{
@@ -89,6 +94,13 @@ Debug.Log("runnedKm " + this.distanceRunnedKm);
 		 yield return new WaitForSeconds(this.timerSpeed);
 	 }
  }
+
+ void OnGUI () 
+    {
+        //driving distance label
+		string distanceLabel =  "KILOMETERS : " + this.distanceRunnedKm;
+		GUI.Label (new Rect (this.distanceLabelx,this.distanceLabely,this.distanceLabelWidth,this.distanceLabelHeight), distanceLabel);
+    }
 
 	void startDashItems(){
 		this.speedNeedle = new SimpleGaugeNeedle();

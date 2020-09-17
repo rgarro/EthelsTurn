@@ -90,7 +90,7 @@ public class WheelDrive : MonoBehaviour
 		 this.secondsDriving = this.secondsDriving + this.timerSpeed;
 			this.distanceRunnedMetres = this.distanceRunnedMetres + (this.speedKph/3.6);
 			this.distanceRunnedKm = this.distanceRunnedMetres / 1000;
-Debug.Log("runnedKm " + this.distanceRunnedKm);
+//Debug.Log("runnedKm " + this.distanceRunnedKm);
 		 yield return new WaitForSeconds(this.timerSpeed);
 	 }
  }
@@ -99,7 +99,8 @@ Debug.Log("runnedKm " + this.distanceRunnedKm);
     {
         //driving distance label
 		string distanceLabel =  "KILOMETERS : " + this.distanceRunnedKm;
-		GUI.Label (new Rect (this.distanceLabelx,this.distanceLabely,this.distanceLabelWidth,this.distanceLabelHeight), distanceLabel);
+		GUI.Box(new Rect(this.distanceLabelx,this.distanceLabely,this.distanceLabelWidth,this.distanceLabelHeight), distanceLabel);
+		//GUI.Label (new Rect (this.distanceLabelx,this.distanceLabely,this.distanceLabelWidth,this.distanceLabelHeight), distanceLabel);
     }
 
 	void startDashItems(){

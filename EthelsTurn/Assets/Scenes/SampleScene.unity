@@ -2929,9 +2929,9 @@ MonoBehaviour:
   speedKph: 0
   speedMph: 0
   timerSpeed: 1
-  distanceLabelx: 148
-  distanceLabely: 449
-  distanceLabelWidth: 100
+  distanceLabelx: 290
+  distanceLabely: 402
+  distanceLabelWidth: 240
   distanceLabelHeight: 40
 --- !u!114 &1281133261
 MonoBehaviour:

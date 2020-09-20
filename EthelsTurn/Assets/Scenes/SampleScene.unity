@@ -2929,10 +2929,10 @@ MonoBehaviour:
   speedKph: 0
   speedMph: 0
   timerSpeed: 1
-  distanceLabelx: 290
+  distanceLabelx: 321
   distanceLabely: 402
-  distanceLabelWidth: 240
-  distanceLabelHeight: 40
+  distanceLabelWidth: 175
+  distanceLabelHeight: 22
 --- !u!114 &1281133261
 MonoBehaviour:
   m_ObjectHideFlags: 0

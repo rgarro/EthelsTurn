@@ -2931,7 +2931,7 @@ MonoBehaviour:
   timerSpeed: 1
   distanceLabelx: 321
   distanceLabely: 402
-  distanceLabelWidth: 175
+  distanceLabelWidth: 364
   distanceLabelHeight: 22
 --- !u!114 &1281133261
 MonoBehaviour:

@@ -99,7 +99,7 @@ public class WheelDrive : MonoBehaviour
     {
         //driving distance label
 		//string distanceLabel =  "KILOMETERS : " + Mathf.Round((float) this.distanceRunnedKm);
-		string distanceLabel =  "KILOMETERS : " + (float) this.distanceRunnedKm;
+		string distanceLabel =  "KILOMETERS : " + Mathf.Round((float) this.distanceRunnedKm) + " KPH : " + Mathf.Round((float)this.speedKph);
 		GUI.Box(new Rect(this.distanceLabelx,this.distanceLabely,this.distanceLabelWidth,this.distanceLabelHeight), distanceLabel);
     }
 

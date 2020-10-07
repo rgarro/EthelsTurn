@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657934, g: 0.4964136, b: 0.5748189, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657838, g: 0.49641234, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2929,10 +2929,12 @@ MonoBehaviour:
   speedKph: 0
   speedMph: 0
   timerSpeed: 1
-  distanceLabelx: 321
+  distanceLabelx: 500
   distanceLabely: 402
-  distanceLabelWidth: 233
+  distanceLabelWidth: 133
   distanceLabelHeight: 22
+  xSpacer: 140
+  kphLabelWidth: 100
 --- !u!114 &1281133261
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -64,6 +64,7 @@ public class WheelDrive : MonoBehaviour
 	public int distanceLabelHeight = 30;
 	public int xSpacer = 25;
 	public int kphLabelWidth = 100;
+	public int mphLabelWidth = 100;
 
     // Find all the WheelColliders down in the hierarchy.
 	void Start()
@@ -102,9 +103,11 @@ public class WheelDrive : MonoBehaviour
         //driving distance label
 				//string distanceLabel =  "KILOMETERS : " + Mathf.Round((float) this.distanceRunnedKm);
 				string distanceLabel =  "KILOMETERS : " + Math.Round((float) this.distanceRunnedKm,2);
-				string kphLabelWidth = " KPH : " + Math.Round((float)this.speedKph,2);
+				string kphLabel = " KPH : " + Math.Round((float)this.speedKph,2);
+				string mphLabel = " MPH : " + Math.Round((float)this.speedMph,2);
 				GUI.Box(new Rect(this.distanceLabelx,this.distanceLabely,this.distanceLabelWidth,this.distanceLabelHeight), distanceLabel);
-				GUI.Box(new Rect(this.distanceLabelx + this.xSpacer,this.distanceLabely,this.kphLabelWidth,this.distanceLabelHeight),kphLabelWidth);
+				GUI.Box(new Rect(this.distanceLabelx + this.xSpacer,this.distanceLabely,this.kphLabelWidth,this.distanceLabelHeight),kphLabel);
+				GUI.Box(new Rect(this.distanceLabelx + this.xSpacer + this.kphLabelWidth,this.distanceLabely,this.mphLabelWidth,this.distanceLabelHeight),mphLabel);
     }
 
 	void startDashItems(){

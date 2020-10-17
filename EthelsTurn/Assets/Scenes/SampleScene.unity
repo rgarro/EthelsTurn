@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657838, g: 0.49641234, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657934, g: 0.4964136, b: 0.5748189, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1639,23 +1639,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400040, guid: 35164057403a841d8b31d3fa0d004081, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.000000029802326
+      value: -0.011804314
       objectReference: {fileID: 0}
     - target: {fileID: 400040, guid: 35164057403a841d8b31d3fa0d004081, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.6054774
+      value: 0.5051699
       objectReference: {fileID: 0}
     - target: {fileID: 400040, guid: 35164057403a841d8b31d3fa0d004081, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.0000001192093
+      value: -0.0053945817
       objectReference: {fileID: 0}
     - target: {fileID: 400040, guid: 35164057403a841d8b31d3fa0d004081, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.79586256
+      value: 0.8629224
       objectReference: {fileID: 0}
     - target: {fileID: 400040, guid: 35164057403a841d8b31d3fa0d004081, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 74.526
+      value: 60.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 400040, guid: 35164057403a841d8b31d3fa0d004081, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -0.855
+      objectReference: {fileID: 0}
+    - target: {fileID: 400040, guid: 35164057403a841d8b31d3fa0d004081, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -1.217
       objectReference: {fileID: 0}
     - target: {fileID: 400050, guid: 35164057403a841d8b31d3fa0d004081, type: 3}
       propertyPath: m_LocalRotation.x
@@ -1699,6 +1707,36 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 796420281}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &796420284 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100050, guid: 35164057403a841d8b31d3fa0d004081,
+    type: 3}
+  m_PrefabInstance: {fileID: 796420281}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &796420285 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100040, guid: 35164057403a841d8b31d3fa0d004081,
+    type: 3}
+  m_PrefabInstance: {fileID: 796420281}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &796420286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 796420283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36e01af557aa046cc87fab7f00f22551, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LeftDoor: {fileID: 796420285}
+  RightDoor: {fileID: 796420284}
+  openedDoorAngle: 67.898
+  closedDoorAngle: -2.4
+  doorSteps: 3
+  audioData: {fileID: 0}
 --- !u!1 &809210656
 GameObject:
   m_ObjectHideFlags: 0
@@ -2977,8 +3015,8 @@ MonoBehaviour:
   speedKph: 0
   speedMph: 0
   timerSpeed: 1
-  distanceLabelx: 500
-  distanceLabely: 521
+  distanceLabelx: 260
+  distanceLabely: 408
   distanceLabelWidth: 133
   distanceLabelHeight: 22
   xSpacer: 140

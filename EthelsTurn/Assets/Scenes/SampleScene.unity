@@ -1736,7 +1736,7 @@ MonoBehaviour:
   openedDoorAngle: 67.898
   closedDoorAngle: -2.4
   doorSteps: 3
-  audioData: {fileID: 0}
+  closeDoorSound: {fileID: 8300000, guid: b1c7e5b8ff25f4ec8b7832db298424af, type: 3}
 --- !u!1 &809210656
 GameObject:
   m_ObjectHideFlags: 0

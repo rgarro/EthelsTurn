@@ -557,8 +557,8 @@ WheelCollider:
   m_Center: {x: 0, y: 0, z: 0}
   m_Radius: 0.5
   m_SuspensionSpring:
-    spring: 25000.385
-    damper: 4000.0618
+    spring: 25000.383
+    damper: 4000.0613
     targetPosition: 0.5
   m_SuspensionDistance: 0.19620001
   m_ForceAppPointDistance: 1.0099995
@@ -988,10 +988,10 @@ WheelCollider:
   m_Center: {x: 0, y: 0, z: 0}
   m_Radius: 0.5
   m_SuspensionSpring:
-    spring: 24999.615
-    damper: 3999.9382
+    spring: 24999.62
+    damper: 3999.9392
     targetPosition: 0.5
-  m_SuspensionDistance: 0.19620001
+  m_SuspensionDistance: 0.1962
   m_ForceAppPointDistance: 1.0099995
   m_Mass: 20
   m_WheelDampingRate: 0.25
@@ -1529,7 +1529,7 @@ WheelCollider:
     spring: 24999.477
     damper: 3999.9165
     targetPosition: 0.5
-  m_SuspensionDistance: 0.19620001
+  m_SuspensionDistance: 0.19620003
   m_ForceAppPointDistance: 1.0099995
   m_Mass: 20
   m_WheelDampingRate: 0.25
@@ -1639,59 +1639,59 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400040, guid: 35164057403a841d8b31d3fa0d004081, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.011804314
+      value: -0.014912186
       objectReference: {fileID: 0}
     - target: {fileID: 400040, guid: 35164057403a841d8b31d3fa0d004081, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.5051699
+      value: 0.40236402
       objectReference: {fileID: 0}
     - target: {fileID: 400040, guid: 35164057403a841d8b31d3fa0d004081, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.0053945817
+      value: -0.008947744
       objectReference: {fileID: 0}
     - target: {fileID: 400040, guid: 35164057403a841d8b31d3fa0d004081, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.8629224
+      value: 0.91531456
       objectReference: {fileID: 0}
     - target: {fileID: 400040, guid: 35164057403a841d8b31d3fa0d004081, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 60.7
+      value: 47.476
       objectReference: {fileID: 0}
     - target: {fileID: 400040, guid: 35164057403a841d8b31d3fa0d004081, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -0.855
+      value: -1.1520001
       objectReference: {fileID: 0}
     - target: {fileID: 400040, guid: 35164057403a841d8b31d3fa0d004081, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -1.217
+      value: -1.6270001
       objectReference: {fileID: 0}
     - target: {fileID: 400050, guid: 35164057403a841d8b31d3fa0d004081, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.86351204
+      value: 0.8996434
       objectReference: {fileID: 0}
     - target: {fileID: 400050, guid: 35164057403a841d8b31d3fa0d004081, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.00000017881389
+      value: -0.0014816967
       objectReference: {fileID: 0}
     - target: {fileID: 400050, guid: 35164057403a841d8b31d3fa0d004081, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.50432825
+      value: 0.43661553
       objectReference: {fileID: 0}
     - target: {fileID: 400050, guid: 35164057403a841d8b31d3fa0d004081, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.00000005960463
+      value: -0.0025365946
       objectReference: {fileID: 0}
     - target: {fileID: 400050, guid: 35164057403a841d8b31d3fa0d004081, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -180
+      value: -179.813
       objectReference: {fileID: 0}
     - target: {fileID: 400050, guid: 35164057403a841d8b31d3fa0d004081, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -60.574005
+      value: -51.776978
       objectReference: {fileID: 0}
     - target: {fileID: 400050, guid: 35164057403a841d8b31d3fa0d004081, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -0.000015258789
+      value: 0.27999878
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 35164057403a841d8b31d3fa0d004081, type: 3}
@@ -1737,6 +1737,8 @@ MonoBehaviour:
   closedDoorAngle: -2.4
   doorSteps: 3
   closeDoorSound: {fileID: 8300000, guid: b1c7e5b8ff25f4ec8b7832db298424af, type: 3}
+  openDoorSound: {fileID: 8300000, guid: b1c7e5b8ff25f4ec8b7832db298424af, type: 3}
+  startWithOpenDoors: 1
 --- !u!1 &809210656
 GameObject:
   m_ObjectHideFlags: 0
@@ -2098,9 +2100,9 @@ WheelCollider:
   m_Radius: 0.5
   m_SuspensionSpring:
     spring: 25000.521
-    damper: 4000.0837
+    damper: 4000.0833
     targetPosition: 0.5
-  m_SuspensionDistance: 0.19620001
+  m_SuspensionDistance: 0.1962
   m_ForceAppPointDistance: 1.0099995
   m_Mass: 20
   m_WheelDampingRate: 0.25

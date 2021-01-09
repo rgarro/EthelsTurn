@@ -1,6 +1,6 @@
 # EthelsTurn
 
-Back to the Future Pepsi. Ethel Waters on the Cairo Desert ...
+Back to the Future Pepsi. Ethel Waters being blue ...
 
 Drive At:
 http://ethelsturn-pre1.s3-website.eu-west-2.amazonaws.com

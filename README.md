@@ -1,6 +1,6 @@
 # EthelsTurn
 
-Back to the Future Pepsi.
+Back to the Future Pepsi. Ethel Waters on the Cairo Desert ...
 
 Drive At:
 http://ethelsturn-pre1.s3-website.eu-west-2.amazonaws.com

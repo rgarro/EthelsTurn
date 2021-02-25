@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657934, g: 0.4964136, b: 0.5748189, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.57481706, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -175,18 +175,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 674519}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &3279119 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 768911566454794994, guid: e9d4139becd844b40b65b4cfca89fcb4,
-    type: 3}
-  m_PrefabInstance: {fileID: 768911566451516413}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &17503630
 GameObject:
   m_ObjectHideFlags: 0
@@ -557,8 +545,8 @@ WheelCollider:
   m_Center: {x: 0, y: 0, z: 0}
   m_Radius: 0.5
   m_SuspensionSpring:
-    spring: 25000.385
-    damper: 4000.0618
+    spring: 25000.383
+    damper: 4000.0613
     targetPosition: 0.5
   m_SuspensionDistance: 0.19620001
   m_ForceAppPointDistance: 1.0099995
@@ -988,10 +976,10 @@ WheelCollider:
   m_Center: {x: 0, y: 0, z: 0}
   m_Radius: 0.5
   m_SuspensionSpring:
-    spring: 24999.615
-    damper: 3999.9382
+    spring: 24999.62
+    damper: 3999.9392
     targetPosition: 0.5
-  m_SuspensionDistance: 0.19620001
+  m_SuspensionDistance: 0.1962
   m_ForceAppPointDistance: 1.0099995
   m_Mass: 20
   m_WheelDampingRate: 0.25
@@ -1529,7 +1517,7 @@ WheelCollider:
     spring: 24999.477
     damper: 3999.9165
     targetPosition: 0.5
-  m_SuspensionDistance: 0.19620001
+  m_SuspensionDistance: 0.19620003
   m_ForceAppPointDistance: 1.0099995
   m_Mass: 20
   m_WheelDampingRate: 0.25
@@ -1639,59 +1627,59 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400040, guid: 35164057403a841d8b31d3fa0d004081, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.011804314
+      value: -0.01189062
       objectReference: {fileID: 0}
     - target: {fileID: 400040, guid: 35164057403a841d8b31d3fa0d004081, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.5051699
+      value: 0.5024359
       objectReference: {fileID: 0}
     - target: {fileID: 400040, guid: 35164057403a841d8b31d3fa0d004081, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.0053945817
+      value: -0.0054931343
       objectReference: {fileID: 0}
     - target: {fileID: 400040, guid: 35164057403a841d8b31d3fa0d004081, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.8629224
+      value: 0.8645153
       objectReference: {fileID: 0}
     - target: {fileID: 400040, guid: 35164057403a841d8b31d3fa0d004081, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 60.7
+      value: 60.338
       objectReference: {fileID: 0}
     - target: {fileID: 400040, guid: 35164057403a841d8b31d3fa0d004081, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -0.855
+      value: -0.86200005
       objectReference: {fileID: 0}
     - target: {fileID: 400040, guid: 35164057403a841d8b31d3fa0d004081, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -1.217
+      value: -1.2290001
       objectReference: {fileID: 0}
     - target: {fileID: 400050, guid: 35164057403a841d8b31d3fa0d004081, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.86351204
+      value: 0.8627922
       objectReference: {fileID: 0}
     - target: {fileID: 400050, guid: 35164057403a841d8b31d3fa0d004081, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.00000017881389
+      value: 0.000026971094
       objectReference: {fileID: 0}
     - target: {fileID: 400050, guid: 35164057403a841d8b31d3fa0d004081, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.50432825
+      value: 0.50555885
       objectReference: {fileID: 0}
     - target: {fileID: 400050, guid: 35164057403a841d8b31d3fa0d004081, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.00000005960463
+      value: 0.00004696845
       objectReference: {fileID: 0}
     - target: {fileID: 400050, guid: 35164057403a841d8b31d3fa0d004081, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -180
+      value: -180.003
       objectReference: {fileID: 0}
     - target: {fileID: 400050, guid: 35164057403a841d8b31d3fa0d004081, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -60.574005
+      value: -60.737
       objectReference: {fileID: 0}
     - target: {fileID: 400050, guid: 35164057403a841d8b31d3fa0d004081, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -0.000015258789
+      value: -0.005004883
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 35164057403a841d8b31d3fa0d004081, type: 3}
@@ -1733,10 +1721,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LeftDoor: {fileID: 796420285}
   RightDoor: {fileID: 796420284}
-  openedDoorAngle: 67.898
-  closedDoorAngle: -2.4
-  doorSteps: 3
-  closeDoorSound: {fileID: 8300000, guid: b1c7e5b8ff25f4ec8b7832db298424af, type: 3}
+  openedDoorAngle: -60.57
+  closedDoorAngle: -2
+  doorSteps: 5
+  closeDoorSound: {fileID: 8300000, guid: 0421d4004acad4db19b0febce9ff0728, type: 3}
+  openDoorSound: {fileID: 8300000, guid: bd9566abdbf08834281bfb4ea8b92a5d, type: 3}
+  startWithOpenDoors: 0
+  closeDoors: 0
 --- !u!1 &809210656
 GameObject:
   m_ObjectHideFlags: 0
@@ -1904,6 +1895,7 @@ GameObject:
   - component: {fileID: 870793101}
   - component: {fileID: 870793102}
   - component: {fileID: 870793103}
+  - component: {fileID: 870793104}
   m_Layer: 0
   m_Name: GameController
   m_TagString: Untagged
@@ -1939,10 +1931,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   soundCloudIcon: {fileID: 2800000, guid: 4c02bc9ff345d445a863db77335508c1, type: 3}
   audioData: {fileID: 0}
-  IconX: 63
+  IconX: 226
   IconY: 10
-  IconWidth: 48
-  IconHeight: 48
+  IconWidth: 50
+  IconHeight: 50
 --- !u!82 &870793102
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2054,8 +2046,22 @@ MonoBehaviour:
   RestartIcon: {fileID: 2800000, guid: cde13d72ec4df4119b1dbb108ec044b3, type: 3}
   IconX: 10
   IconY: 10
-  IconWidth: 48
-  IconHeight: 48
+  IconWidth: 50
+  IconHeight: 50
+--- !u!114 &870793104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 870793099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66542e25649203c4aa1d56fe87007b45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vehicle: {fileID: 1281133259}
+  minPosY: -10
 --- !u!1 &933316787
 GameObject:
   m_ObjectHideFlags: 0
@@ -2098,9 +2104,9 @@ WheelCollider:
   m_Radius: 0.5
   m_SuspensionSpring:
     spring: 25000.521
-    damper: 4000.0837
+    damper: 4000.0833
     targetPosition: 0.5
-  m_SuspensionDistance: 0.19620001
+  m_SuspensionDistance: 0.1962
   m_ForceAppPointDistance: 1.0099995
   m_Mass: 20
   m_WheelDampingRate: 0.25
@@ -3010,16 +3016,16 @@ MonoBehaviour:
   driveType: 0
   speedNeedle: {fileID: 0}
   mphNeedle: {fileID: 0}
-  NeedleIm: {fileID: 1373943873}
-  NeedleMph: {fileID: 3279119}
+  NeedleIm: {fileID: 1812996176}
+  NeedleMph: {fileID: 2103644468}
   speedKph: 0
   speedMph: 0
   timerSpeed: 1
-  distanceLabelx: 260
-  distanceLabely: 408
-  distanceLabelWidth: 133
-  distanceLabelHeight: 22
-  xSpacer: 140
+  distanceLabelx: 200
+  distanceLabely: 399
+  distanceLabelWidth: 180
+  distanceLabelHeight: 30
+  xSpacer: 184
   kphLabelWidth: 100
   mphLabelWidth: 100
 --- !u!114 &1281133261
@@ -3089,9 +3095,9 @@ MonoBehaviour:
   lowAccelClip: {fileID: 8300000, guid: c4d8928c75c21af43998193f0f038429, type: 3}
   lowDecelClip: {fileID: 8300000, guid: 5699dddcce16c4543b95951c4ce0e092, type: 3}
   highAccelClip: {fileID: 8300000, guid: 03e3bd08a6e70684dbe299a3e185fdd2, type: 3}
-  highDecelClip: {fileID: 8300000, guid: 03bf91d88fce91c41995d27de63cc967, type: 3}
-  pitchMultiplier: 1.33
-  lowPitchMin: 1.03
+  highDecelClip: {fileID: 8300000, guid: 5699dddcce16c4543b95951c4ce0e092, type: 3}
+  pitchMultiplier: 1
+  lowPitchMin: 1
   lowPitchMax: 6
   highPitchMultiplier: 0.25
   maxRolloffDistance: 500
@@ -3109,13 +3115,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16f1b8fc1b26a455ca9f7da5b3ce2752, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  buttons_x_corner: 118
-  buttons_y_corner: 2
+  buttons_x_corner: 66
+  buttons_y_corner: 10
   BoxWidth: 108
   BoxHeight: 73
   IconWidth: 40
   IconHeight: 40
-  IconsY: 27
+  IconsY: 40
   IconXSeparation: 55
   ModelAIcon: {fileID: 2800000, guid: bd96664c9bea243dc91cb1d627ebffe7, type: 3}
   ModelBIcon: {fileID: 2800000, guid: 723cda8b5201e41d7bed24fc0e91127f, type: 3}
@@ -3136,7 +3142,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rearViewMirrorIcon: {fileID: 2800000, guid: 0abdc5107d15a4b608bfeaa55bc98b6e, type: 3}
   rearViewMirrorObj: {fileID: 159305329}
-  IconX: 234
+  IconX: 178
   IconY: 10
   IconWidth: 45
   IconHeight: 45
@@ -3282,18 +3288,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1330615487}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1373943873 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 768911565677960124, guid: e9d4139becd844b40b65b4cfca89fcb4,
-    type: 3}
-  m_PrefabInstance: {fileID: 768911566451516413}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1384937865
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3648,6 +3642,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 910771039, guid: f56d46228aee4734f9114056c53bb57e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1812996176 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 768911565677960124, guid: e9d4139becd844b40b65b4cfca89fcb4,
+    type: 3}
+  m_PrefabInstance: {fileID: 768911566451516413}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1838743693
@@ -4020,6 +4026,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2082634404}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2103644468 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 768911566454794994, guid: e9d4139becd844b40b65b4cfca89fcb4,
+    type: 3}
+  m_PrefabInstance: {fileID: 768911566451516413}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &768911566451516413
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4142,5 +4160,10 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 282840813}
+    - target: {fileID: 768911566454794992, guid: e9d4139becd844b40b65b4cfca89fcb4,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e9d4139becd844b40b65b4cfca89fcb4, type: 3}

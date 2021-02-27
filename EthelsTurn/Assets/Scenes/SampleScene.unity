@@ -545,8 +545,8 @@ WheelCollider:
   m_Center: {x: 0, y: 0, z: 0}
   m_Radius: 0.5
   m_SuspensionSpring:
-    spring: 25000.383
-    damper: 4000.0613
+    spring: 25000.385
+    damper: 4000.0618
     targetPosition: 0.5
   m_SuspensionDistance: 0.19620001
   m_ForceAppPointDistance: 1.0099995
@@ -976,10 +976,10 @@ WheelCollider:
   m_Center: {x: 0, y: 0, z: 0}
   m_Radius: 0.5
   m_SuspensionSpring:
-    spring: 24999.62
-    damper: 3999.9392
+    spring: 24999.615
+    damper: 3999.9382
     targetPosition: 0.5
-  m_SuspensionDistance: 0.1962
+  m_SuspensionDistance: 0.19620001
   m_ForceAppPointDistance: 1.0099995
   m_Mass: 20
   m_WheelDampingRate: 0.25
@@ -1517,7 +1517,7 @@ WheelCollider:
     spring: 24999.477
     damper: 3999.9165
     targetPosition: 0.5
-  m_SuspensionDistance: 0.19620003
+  m_SuspensionDistance: 0.19620001
   m_ForceAppPointDistance: 1.0099995
   m_Mass: 20
   m_WheelDampingRate: 0.25
@@ -1722,12 +1722,12 @@ MonoBehaviour:
   LeftDoor: {fileID: 796420285}
   RightDoor: {fileID: 796420284}
   openedDoorAngle: -60.57
-  closedDoorAngle: -2
+  closedDoorAngle: 2
   doorSteps: 5
   closeDoorSound: {fileID: 8300000, guid: 0421d4004acad4db19b0febce9ff0728, type: 3}
   openDoorSound: {fileID: 8300000, guid: bd9566abdbf08834281bfb4ea8b92a5d, type: 3}
-  startWithOpenDoors: 0
-  closeDoors: 0
+  startWithOpenDoors: 1
+  closeDoors: 1
 --- !u!1 &809210656
 GameObject:
   m_ObjectHideFlags: 0
@@ -2104,9 +2104,9 @@ WheelCollider:
   m_Radius: 0.5
   m_SuspensionSpring:
     spring: 25000.521
-    damper: 4000.0833
+    damper: 4000.0837
     targetPosition: 0.5
-  m_SuspensionDistance: 0.1962
+  m_SuspensionDistance: 0.19620001
   m_ForceAppPointDistance: 1.0099995
   m_Mass: 20
   m_WheelDampingRate: 0.25

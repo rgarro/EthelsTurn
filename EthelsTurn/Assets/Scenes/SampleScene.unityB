@@ -557,13 +557,8 @@ WheelCollider:
   m_Center: {x: 0, y: 0, z: 0}
   m_Radius: 0.5
   m_SuspensionSpring:
-<<<<<<< HEAD
     spring: 25000.777
     damper: 4000.1243
-=======
-    spring: 25000.383
-    damper: 4000.061
->>>>>>> 696dc88be8664d44be52c4f1430b5181b1321e37
     targetPosition: 0.5
   m_SuspensionDistance: 0.1962
   m_ForceAppPointDistance: 1.01
@@ -993,13 +988,8 @@ WheelCollider:
   m_Center: {x: 0, y: 0, z: 0}
   m_Radius: 0.5
   m_SuspensionSpring:
-<<<<<<< HEAD
     spring: 24999.227
     damper: 3999.8762
-=======
-    spring: 24999.615
-    damper: 3999.9382
->>>>>>> 696dc88be8664d44be52c4f1430b5181b1321e37
     targetPosition: 0.5
   m_SuspensionDistance: 0.19620001
   m_ForceAppPointDistance: 1.01
@@ -1536,13 +1526,8 @@ WheelCollider:
   m_Center: {x: 0, y: 0, z: 0}
   m_Radius: 0.5
   m_SuspensionSpring:
-<<<<<<< HEAD
     spring: 25000.672
     damper: 4000.1074
-=======
-    spring: 24999.475
-    damper: 3999.916
->>>>>>> 696dc88be8664d44be52c4f1430b5181b1321e37
     targetPosition: 0.5
   m_SuspensionDistance: 0.1962
   m_ForceAppPointDistance: 1.01

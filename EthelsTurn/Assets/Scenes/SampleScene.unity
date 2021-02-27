@@ -38,11 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-<<<<<<< HEAD
   m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.57481706, a: 1}
-=======
-  m_IndirectSpecularColor: {r: 0.44657838, g: 0.49641234, b: 0.57481676, a: 1}
->>>>>>> e950af072c5f1e77c2d14f415e90b2fb83b1ab63
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1631,7 +1627,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400040, guid: 35164057403a841d8b31d3fa0d004081, type: 3}
       propertyPath: m_LocalRotation.x
-<<<<<<< HEAD
       value: -0.01189062
       objectReference: {fileID: 0}
     - target: {fileID: 400040, guid: 35164057403a841d8b31d3fa0d004081, type: 3}
@@ -1685,61 +1680,6 @@ PrefabInstance:
     - target: {fileID: 400050, guid: 35164057403a841d8b31d3fa0d004081, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -0.005004883
-=======
-      value: -0.014912186
-      objectReference: {fileID: 0}
-    - target: {fileID: 400040, guid: 35164057403a841d8b31d3fa0d004081, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.40236402
-      objectReference: {fileID: 0}
-    - target: {fileID: 400040, guid: 35164057403a841d8b31d3fa0d004081, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0.008947744
-      objectReference: {fileID: 0}
-    - target: {fileID: 400040, guid: 35164057403a841d8b31d3fa0d004081, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.91531456
-      objectReference: {fileID: 0}
-    - target: {fileID: 400040, guid: 35164057403a841d8b31d3fa0d004081, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 47.476
-      objectReference: {fileID: 0}
-    - target: {fileID: 400040, guid: 35164057403a841d8b31d3fa0d004081, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: -1.1520001
-      objectReference: {fileID: 0}
-    - target: {fileID: 400040, guid: 35164057403a841d8b31d3fa0d004081, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -1.6270001
-      objectReference: {fileID: 0}
-    - target: {fileID: 400050, guid: 35164057403a841d8b31d3fa0d004081, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.8996434
-      objectReference: {fileID: 0}
-    - target: {fileID: 400050, guid: 35164057403a841d8b31d3fa0d004081, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.0014816967
-      objectReference: {fileID: 0}
-    - target: {fileID: 400050, guid: 35164057403a841d8b31d3fa0d004081, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.43661553
-      objectReference: {fileID: 0}
-    - target: {fileID: 400050, guid: 35164057403a841d8b31d3fa0d004081, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.0025365946
-      objectReference: {fileID: 0}
-    - target: {fileID: 400050, guid: 35164057403a841d8b31d3fa0d004081, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: -179.813
-      objectReference: {fileID: 0}
-    - target: {fileID: 400050, guid: 35164057403a841d8b31d3fa0d004081, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -51.776978
-      objectReference: {fileID: 0}
-    - target: {fileID: 400050, guid: 35164057403a841d8b31d3fa0d004081, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0.27999878
->>>>>>> e950af072c5f1e77c2d14f415e90b2fb83b1ab63
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 35164057403a841d8b31d3fa0d004081, type: 3}
@@ -1781,7 +1721,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LeftDoor: {fileID: 796420285}
   RightDoor: {fileID: 796420284}
-<<<<<<< HEAD
   openedDoorAngle: -60.57
   closedDoorAngle: -2
   doorSteps: 5
@@ -1789,111 +1728,6 @@ MonoBehaviour:
   openDoorSound: {fileID: 8300000, guid: bd9566abdbf08834281bfb4ea8b92a5d, type: 3}
   startWithOpenDoors: 0
   closeDoors: 0
-=======
-  openedDoorAngle: -67.898
-  closedDoorAngle: -2.4
-  doorSteps: 0.25
-  closeDoorSound: {fileID: 8300000, guid: b1c7e5b8ff25f4ec8b7832db298424af, type: 3}
-  openDoorSound: {fileID: 8300000, guid: b1c7e5b8ff25f4ec8b7832db298424af, type: 3}
-  startWithOpenDoors: 0
-  closeDoors: 1
---- !u!82 &796420287
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 796420283}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 1
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
->>>>>>> e950af072c5f1e77c2d14f415e90b2fb83b1ab63
 --- !u!1 &809210656
 GameObject:
   m_ObjectHideFlags: 0

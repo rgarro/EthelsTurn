@@ -545,8 +545,8 @@ WheelCollider:
   m_Center: {x: 0, y: 0, z: 0}
   m_Radius: 0.5
   m_SuspensionSpring:
-    spring: 25000.385
-    damper: 4000.0618
+    spring: 25000.383
+    damper: 4000.0613
     targetPosition: 0.5
   m_SuspensionDistance: 0.19620001
   m_ForceAppPointDistance: 1.0099995
@@ -976,10 +976,10 @@ WheelCollider:
   m_Center: {x: 0, y: 0, z: 0}
   m_Radius: 0.5
   m_SuspensionSpring:
-    spring: 24999.615
-    damper: 3999.9382
+    spring: 24999.62
+    damper: 3999.9392
     targetPosition: 0.5
-  m_SuspensionDistance: 0.19620001
+  m_SuspensionDistance: 0.1962
   m_ForceAppPointDistance: 1.0099995
   m_Mass: 20
   m_WheelDampingRate: 0.25
@@ -1517,7 +1517,7 @@ WheelCollider:
     spring: 24999.477
     damper: 3999.9165
     targetPosition: 0.5
-  m_SuspensionDistance: 0.19620001
+  m_SuspensionDistance: 0.19620003
   m_ForceAppPointDistance: 1.0099995
   m_Mass: 20
   m_WheelDampingRate: 0.25
@@ -1714,7 +1714,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 796420283}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 36e01af557aa046cc87fab7f00f22551, type: 3}
   m_Name: 
@@ -1726,7 +1726,7 @@ MonoBehaviour:
   doorSteps: 5
   closeDoorSound: {fileID: 8300000, guid: 0421d4004acad4db19b0febce9ff0728, type: 3}
   openDoorSound: {fileID: 8300000, guid: bd9566abdbf08834281bfb4ea8b92a5d, type: 3}
-  startWithOpenDoors: 1
+  startWithOpenDoors: 0
   closeDoors: 1
 --- !u!1 &809210656
 GameObject:
@@ -1896,6 +1896,7 @@ GameObject:
   - component: {fileID: 870793102}
   - component: {fileID: 870793103}
   - component: {fileID: 870793104}
+  - component: {fileID: 870793105}
   m_Layer: 0
   m_Name: GameController
   m_TagString: Untagged
@@ -2062,6 +2063,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vehicle: {fileID: 1281133259}
   minPosY: -10
+--- !u!114 &870793105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 870793099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ec63555848389044875d2f33b7e9e5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DownloadIcon: {fileID: 2800000, guid: d81e91b54d733674ab63a30478123994, type: 3}
+  IconX: 282
+  IconY: 10
+  IconWidth: 48
+  IconHeight: 48
+  downloadUrl: https://matterporttest-f4387.firebaseapp.com/TheGospelOfLuke.zip
 --- !u!1 &933316787
 GameObject:
   m_ObjectHideFlags: 0
@@ -2104,9 +2123,9 @@ WheelCollider:
   m_Radius: 0.5
   m_SuspensionSpring:
     spring: 25000.521
-    damper: 4000.0837
+    damper: 4000.0833
     targetPosition: 0.5
-  m_SuspensionDistance: 0.19620001
+  m_SuspensionDistance: 0.1962
   m_ForceAppPointDistance: 1.0099995
   m_Mass: 20
   m_WheelDampingRate: 0.25

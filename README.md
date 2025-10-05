@@ -11,6 +11,6 @@ Al-Tikrit Music Loop:
 https://soundcloud.com/dorje-trolo/al-tikrit-highway-takeone
 
 
-Buy Me a Beer, Starbucks Expresso or send a cheese burguer ... [Paypal](https://www.paypal.me/gospelOfLuke/25).
+Did you like it? send me funds,help me to pay my MIT major ... [Paypal](https://www.paypal.me/gospelOfLuke/25).
 
 [![tamaulipas era el jefe ... ](https://raw.githubusercontent.com/rgarro/EthelsTurn/master/ethel.PNG)]
